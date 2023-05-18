@@ -4,6 +4,4 @@ function hello(str) {
     return word;
 };
 
-hello('world!')
-
-module.exports = hello;
+module.exports = hello('world!');
