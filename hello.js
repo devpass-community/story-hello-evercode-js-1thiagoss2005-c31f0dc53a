@@ -1,5 +1,6 @@
 function hello(str) {
-    // Add your solution here!
+    let word = 'Hello' + ', ' + str + '!';
+    return word;
 };
 
 module.exports = hello;
