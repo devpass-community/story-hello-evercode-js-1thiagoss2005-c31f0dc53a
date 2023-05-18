@@ -1,5 +1,9 @@
 function hello(str) {
-    // Add your solution here!
+    let word = 'Hello' + ', ' + str;
+    console.log(word);
+    return word;
 };
+
+hello('world!')
 
 module.exports = hello;
